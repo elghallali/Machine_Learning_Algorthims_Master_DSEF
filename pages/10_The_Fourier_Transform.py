@@ -24,9 +24,13 @@ with c:
 
 </div>
 <br><br>
+
+
+
 </div>
 
     """, unsafe_allow_html=True)
+
 
 st.write(
     """This demo illustrates a combination of plotting and animation with

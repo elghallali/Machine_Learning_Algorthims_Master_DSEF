@@ -88,6 +88,40 @@ figure. The key difference between these two types is the Continuous Wavelet Tra
 wavelet over a range of scales and locations i.e. an infinite number of scales and locations. While the Discrete 
 Wavelet Transform (DWT) uses a finite set of wavelets i.e. defined at a particular set of scales and locations.
 
+### 2.1. Continuous Wavelet Transforms (CWT)
+
+- The Continuous Wavelet Transform is defined as the convolution of a signal, $x(t)$, with a continuous wavelet 
+function, $\\varPsi(t)$.
+
+- The wavelet function,	$\\varPsi(t)$, is a scaled and translated version of a prototype wavelet,
+typically denoted as $\\varPsi(t; a, b)$, where ’$a$’ represents the scale parameter and ’$b$’ represents
+the translation parameter.
+
+- The $CWT$ provides a continuous representation of a signal in the time-scale domain, allowing
+for the analysis of localized features at different scales.
+
+### 2.2. Discrete Wavelet Transforms (DWT)
+
+- The Discrete Wavelet Transform is a sampled version of the Continuous Wavelet Transform
+that provides a more practical implementation.
+- The DWT uses a discrete set of scales and translations to analyze a signal. It decomposes
+the signal into two components : approximation (low-frequency) and detail (high-frequency).
+- The DWT operates by applying a series of filters to the signal, which separates the signal
+into different frequency bands.
+- By recursively applying the DWT to the approximation coefficients, a multi-resolution
+analysis can be achieved, providing a hierarchical representation of the signal.
+
+### 2.3. Wavelet Families :
+
+- Wavelet families refer to a set of wavelet functions that share certain properties. - Common wavelet families 
+include **`Daubechies`**, **`Haar`**, **`Coiflets`**, and **`Symlets`**. 
+
+- Each family has different characteristics, such as the number of vanishing moments, orthogonality, compact support, 
+and regularity.
+
+- The choice of wavelet family depends on the specific requirements of the application, such as time localization, 
+frequency selectivity, or computational efficiency.
+
 ## 3. Why wavelets?
 A couple of key advantages of the Wavelet Transform are:
 

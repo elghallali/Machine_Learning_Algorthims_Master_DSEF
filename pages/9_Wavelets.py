@@ -205,4 +205,23 @@ Wavelet Transform is analyzing ECG signals which contain periodic transient sign
 
     """, unsafe_allow_html=True)
 
+st.markdown("## Use Cases")
 
+col_1, col_2, col_3 = st.columns([1, 1, 1])
+with col_1:
+    button1 = st.button('Wavelet with a static dataset')
+
+with col_2:
+    button2 = st.button('Wavelet with dataset from Yahoo Finance')
+
+with col_3:
+    button3 = st.button('Wavelet with uploaded dataset')
+
+if button1:
+    pass
+
+if button2:
+    pass
+
+if button3:
+    pass

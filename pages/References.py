@@ -25,6 +25,19 @@ with c:
 </div>
 <br><br>
 
+## Support Vector Machine (SVM) Algorithm
+- [Support Vector Machine — Introduction to Machine Learning Algorithms](https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47)
+
+## K-Nearest Neighbors (kNN) Algorithm
+- [K-Nearest Neighbour: The Distance-Based Machine Learning Algorithm](https://www.analyticsvidhya.com/blog/2021/05/knn-the-distance-based-machine-learning-algorithm/#:~:text=The%20abbreviation%20KNN%20stands%20for,by%20the%20symbol%20'K'.)
+- [What is the k-nearest neighbors algorithm?](https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20algorithm%2C%20also%20known%20as%20KNN%20or,of%20an%20individual%20data%20point.)
+
+## Decision Tree
+- [Decision Tree algorithm](https://medium.com/@goelpulkit43/decision-tree-algorithm-8a5c19d98781)
+
+## Random Forest
+- [Understanding Random Forest](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)
+
 ## The Wavelet Transform
 - [The Wavelet Transform](https://towardsdatascience.com/the-wavelet-transform-e9cfa85d7b34)
 

@@ -1,5 +1,6 @@
 import streamlit as st
 from App import Logos
+from LinearRegression.Simple import SimpleLinearRegression
 
 st.set_page_config(page_title="Linear Regression", page_icon="📈")
 
@@ -14,10 +15,10 @@ st.markdown("""
 Logos()
 
 
-def linear_regression():
-    c = st.container()
-    with c:
-        st.markdown("""
+
+c = st.container()
+with c:
+    st.markdown("""
     ---
     <div style="text-align: center">
     <h1>Linear Regression in Machine Learning</h1>
@@ -169,26 +170,24 @@ def linear_regression():
 
     </div>""", unsafe_allow_html=True)
 
-    st.markdown("## Use Cases")
+st.markdown("## Use Cases")
 
-    col_1, col_2, col_3 = st.columns([1, 1, 1])
-    with col_1:
-        button1 = st.button('Simple Linear Regression')
+col_1, col_2, col_3 = st.columns([1, 1, 1])
+with col_1:
+    button1 = st.button('Simple Linear Regression')
 
-    with col_2:
-        button2 = st.button('Multiple Linear Regression')
+with col_2:
+    button2 = st.button('Multiple Linear Regression')
 
-    with col_3:
-        button3 = st.button('Prediction')
+with col_3:
+    button3 = st.button('Prediction')
 
-    if button1:
-        pass
+if button1:
+    SimpleLinearRegression()
 
-    if button2:
-        pass
+if button2:
+    pass
 
-    if button3:
-        pass
+if button3:
+    pass
 
-
-linear_regression()
